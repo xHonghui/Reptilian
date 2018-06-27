@@ -6,6 +6,7 @@ import urllib2
 
 def get_web_data(url):
     webdata = urllib2.urlopen(url).read()
+    print(webdata)
     return webdata
 
 
@@ -15,7 +16,7 @@ def get_data(keyword, address):
             url = "https://sou.zhaopin.com/jobs/searchresult.ashx?jl=" + bytes(address[i]) + "&kw=" + keyword[
                 j] + "&sm=0&p=1"
             webstr = get_web_data(url)
-            restr = "<em>(\\d+)</em>"
+            restr = "<em>(\\d+)</em>"  # <em>5643</em>
             regex = re.compile(restr, re.IGNORECASE)
             data_list = regex.findall(webstr)
             if len(data_list) > 0:
