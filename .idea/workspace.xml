@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Reptilian$2_urllib2.coverage" NAME="2.使用urllib2抓取智联招聘网站信息 Coverage Results" MODIFIED="1530086740682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
+    <SUITE FILE_PATH="coverage/Reptilian$3_.coverage" NAME="3.前程无忧数据抓取 Coverage Results" MODIFIED="1530092070461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
+    <SUITE FILE_PATH="coverage/Reptilian$3_Firefox51job.coverage" NAME="3.Firefox抓取51job Coverage Results" MODIFIED="1530093336367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
+    <SUITE FILE_PATH="coverage/Reptilian$2_.coverage" NAME="2.模拟浏览器进抓取智联招聘网站信息 Coverage Results" MODIFIED="1530089664827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
+    <SUITE FILE_PATH="coverage/Reptilian$2_urllib2.coverage" NAME="2.使用urllib2抓取智联招聘网站信息 Coverage Results" MODIFIED="1530088237162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
@@ -18,7 +21,26 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.3.Firefox抓取51job">
+    <configuration name="2.模拟浏览器进抓取智联招聘网站信息" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Reptilian" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day01/2.模拟浏览器进抓取智联招聘网站信息.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="2.使用urllib2抓取智联招聘网站信息" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Reptilian" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -38,8 +60,55 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="3.前程无忧数据抓取" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Reptilian" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day01/3.前程无忧数据抓取.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="3.Firefox抓取51job" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Reptilian" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day01/3.Firefox抓取51job.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.2.使用urllib2抓取智联招聘网站信息" />
+      <item itemvalue="Python.3.前程无忧数据抓取" />
+      <item itemvalue="Python.2.模拟浏览器进抓取智联招聘网站信息" />
+      <item itemvalue="Python.3.Firefox抓取51job" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.3.Firefox抓取51job" />
+        <item itemvalue="Python.3.前程无忧数据抓取" />
+        <item itemvalue="Python.2.模拟浏览器进抓取智联招聘网站信息" />
         <item itemvalue="Python.2.使用urllib2抓取智联招聘网站信息" />
       </list>
     </recent_temporary>
